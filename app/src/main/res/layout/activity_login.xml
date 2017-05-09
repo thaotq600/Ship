@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="true"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#448b8b8e"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ViewFlipper
+            android:id="@+id/vf_logo"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_margin="6dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_logo"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/logo_ship" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Supper Ship"
+                    android:textColor="#f00"
+                    android:textSize="30dp" />
+            </LinearLayout>
+        </ViewFlipper>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/ic_sign_in_user">
+
+            <EditText
+                android:id="@+id/et_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="textEmailAddress"
+                android:text="nakura503@gmail.com"
+                android:textColor="#2b2828"
+                android:textSize="15sp" />
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/ic_sign_in_pass"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="15sp"
+                android:text="12341234"/>
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:text="Login"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/tv_forget_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/forget_pass" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/link_sign_up"
+                android:textColor="#00f" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="30dp"
+    android:paddingBottom="30dp"
+    android:background="@drawable/custom_dialog_layout">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:textSize="30dp"
+        android:text="Who are you?"
+        android:id="@+id/textView"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_saler"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_who">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_dialog_saler"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:layout_gravity="center_vertical"
+            android:text="Saler"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_shipper"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_who">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_dialog_shipper"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:layout_gravity="center_vertical"
+            android:text="Shipper"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_customer"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp"
+        android:background="@drawable/custom_dialog_who">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_dialog_customer"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#f00"
+            android:layout_gravity="center_vertical"
+            android:text="Customer"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dialog_login_who_tv_account"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:text="@string/use_another_account"
+        android:textColor="@drawable/custom_press_link"
+        android:textStyle="italic"
+        android:fontFamily="cursive"/>
+</LinearLayout>

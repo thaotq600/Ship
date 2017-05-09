@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "287300603186",
+    "firebase_url": "https://super-ship.firebaseio.com",
+    "project_id": "super-ship",
+    "storage_bucket": "super-ship.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287300603186:android:94aec39670298589",
+        "android_client_info": {
+          "package_name": "com.example.quocthao.supership"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287300603186-3abf5v1tg94i2a4bglaembu0ch5v00vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOOwIlF_r0aWw0yxbdrGT5q6dyEqG45FA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

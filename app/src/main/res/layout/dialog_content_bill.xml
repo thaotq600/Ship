@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đơn hàng"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/content_bill_tv_address_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nơi gởi : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_address_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nơi nhận : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_time_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời hạn : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại hàng : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cân nặng : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_money_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiền hàng : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_money_ship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiền ship : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_phone_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại người gởi : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_phone_receiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại người nhận : "/>
+
+    <TextView
+        android:id="@+id/content_bill_tv_note"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú : "/>
+</LinearLayout>
